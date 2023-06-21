@@ -11,8 +11,14 @@ namespace InterfacePractice
     {
         void eat();
         void sleep();
-        void fly();
+    }
+    public interface ISwimAnimals
+    {
         void swim();
+    }
+    public interface IFlyAnimals
+    {
+        void fly();
     }
 
     
@@ -21,7 +27,7 @@ namespace InterfacePractice
         static void Main(string[] args)
         {
             Human human = new Human();
-            human.fly();
+            human.MoveHuman();
 
         }
     }
